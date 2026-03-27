@@ -298,47 +298,13 @@
         <p class="message" id="initialMessage">✨ I have something for you... 💫</p>
         <p class="message hidden" id="secondMessage">🥺 It's a special day for me... 💕</p>
     </div>
-    <input type="password" id="pass" placeholder="Enter secret">
-
-<script>
-function go(){
-    let input = document.getElementById("pass").value.trim();
-
-    if(input === "27/03/2006"){
-        window.location.href = "game.html";
-    } else {
-        alert("Wrong password");
-    }
-}
-</script>
 
     <button class="enter-button" id="enterButton" oneclick="go()" style="translate: none; rotate: none; scale: none; transform: translate(0px, 20px); opacity: 0;">
         <span>✨</span>
         <span>Enter My Day</span>
         <span>💖</span>
     </button>
-    <style>
-  .pastel-button {
-    background-color: #ffd6e0;   /* हल्का गुलाबी pastel */
-    color: #4a4a4a;              /* गहरा ग्रे टेक्स्ट */
-    font-size: 24px;             /* बड़ा font size */
-    padding: 18px 36px;          /* button को बड़ा करने के लिए padding */
-    border: none;                /* border हटाना */
-    border-radius: 20px;         /* ज्यादा गोल किनारे */
-    cursor: pointer;             /* hover पर pointer */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* हल्का shadow */
-    transition: all 0.3s ease;   /* smooth hover effect */
-  }
-
-  .pastel-button:hover {
-    background-color: #ffb3c6;   /* hover पर थोड़ा गहरा pastel गुलाबी */
-    transform: scale(1.08);      /* hover पर हल्का zoom */
-  }
-</style>
-<a href="final.html">
-  <button class="pastel-button">Go to Final Page</button>
-</a>
-
+   
     <!-- GIF container -->
     <div class="gif-container" id="gifContainer" style="translate: none; rotate: none; scale: none; transform: translate(0px, 20px); opacity: 0;">
         <img src="heart.png" alt="Birthday celebration" class="gif-placeholder" id="gifPlaceholder">
